@@ -1,6 +1,6 @@
 import React from "react";
 
-const TabelaHead = (props) => (
+export const TabelaHead = (props) => (
     <thead>
         <tr>
             <th colspan="4">Tabela de Livros</th> 
@@ -28,5 +28,3 @@ const TabelaHead = (props) => (
         
     </thead>
 );
-
-    export default TabelaHead;

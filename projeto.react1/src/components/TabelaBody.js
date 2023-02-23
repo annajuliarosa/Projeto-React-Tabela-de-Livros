@@ -1,6 +1,6 @@
 import React from "react";
 
-const TabelaBody = (props) => (
+export const TabelaBody = (props) => (
     <tbody>
         {props.livros.map((livro, index) => (
         <tr key={livro.id}>
@@ -17,5 +17,3 @@ const TabelaBody = (props) => (
 </tbody>
 
 );
-
-export default TabelaBody;

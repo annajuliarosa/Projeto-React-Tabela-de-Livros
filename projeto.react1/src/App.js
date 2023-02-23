@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import './index.css';
-import TabelaHead from "./components/TabelaHead";
-import TabelaFoot from "./components/TabelaFoot";
-import TabelaBody from "./components/TabelaBody";
+import {TabelaHead} from "./components/TabelaHead";
+import {TabelaFoot} from "./components/TabelaFoot";
+import {TabelaBody} from "./components/TabelaBody";
 
 class App extends Component{
 
